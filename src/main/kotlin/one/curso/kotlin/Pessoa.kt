@@ -1,8 +1,9 @@
 package one.curso.kotlin
 
 class Pessoa {
-    val nome: String = "Heliton Silva Vieira"
-    val cpf: String = "064.847.146.33"
+    var nome: String = "Heliton Silva Vieira"
+    var cpf: String = "064.847.146.33"
+    private set
 
     inner class Endereco{
         var rua: String = "Rua Teste"
